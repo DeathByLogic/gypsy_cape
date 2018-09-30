@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Compiling the overlay from .dts to .dtbo"
+
+/usr/local/bin/dtc -O dtb -o DBL-Gypsy-Robot-00A0.dtbo -b 0 -@ DBL-Gypsy-Robot.dts
